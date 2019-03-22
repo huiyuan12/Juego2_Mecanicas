@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{414BA2B3-5C47-2BC4-0649-1A58AACF426F}</ProjectGuid>
+    <ProjectGuid>{AB2A7062-A825-115E-F21C-1A90629E72BF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -59,23 +59,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\createWall.cs" />
     <Compile Include="Assets\Scripts\Camera.cs" />
     <Compile Include="Assets\Scripts\Create.cs" />
     <Compile Include="Assets\Scripts\DestroyCube.cs" />
+    <Compile Include="Assets\Scripts\DestroyWall.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Enemy2.cs" />
     <Compile Include="Assets\Scripts\Lose.cs" />
+    <Compile Include="Assets\Scripts\MaceDestroy.cs" />
     <Compile Include="Assets\Scripts\Manager.cs" />
     <Compile Include="Assets\Scripts\MenuScripts.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scripts\MoveSpike.cs" />
     <Compile Include="Assets\Scripts\RandObj.cs" />
     <Compile Include="Assets\Scripts\Suelo.cs" />
     <Compile Include="Assets\Scripts\TimeUI.cs" />
+    <Compile Include="Assets\Scripts\WallColl.cs" />
     <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/Juan/Desktop/Practica2_Mecaniques/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Juan/Desktop/Juego2_Mecanicas/Practica2_Mecaniques - copia/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Juan/Desktop/Practica2_Mecaniques/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Juan/Desktop/Juego2_Mecanicas/Practica2_Mecaniques - copia/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

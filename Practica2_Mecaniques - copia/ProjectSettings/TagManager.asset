@@ -6,6 +6,10 @@ TagManager:
   tags:
   - lose
   - Spike
+  - spike2
+  - Wall
+  - mace
+  - destroyWall
   layers:
   - Default
   - TransparentFX
