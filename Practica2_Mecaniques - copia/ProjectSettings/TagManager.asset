@@ -10,6 +10,8 @@ TagManager:
   - Wall
   - mace
   - destroyWall
+  - gems
+  - spike3
   layers:
   - Default
   - TransparentFX

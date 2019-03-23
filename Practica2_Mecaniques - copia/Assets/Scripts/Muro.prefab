@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 50017914386054614}
   - component: {fileID: 114093523886901638}
   - component: {fileID: 114731138944015278}
+  - component: {fileID: 114556449955226984}
   m_Layer: 0
   m_Name: Muro
   m_TagString: Wall
@@ -261,6 +262,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beb6a9e6cae0a554aa3ba4ba434d3977, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114556449955226984
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1338761182295388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87fdecc2e6216d44e8bebb0afd2ceee1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCol: 0
 --- !u!114 &114731138944015278
 MonoBehaviour:
   m_ObjectHideFlags: 1

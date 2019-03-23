@@ -17,6 +17,7 @@ public class Lose : MonoBehaviour {
     {
         if(other.tag == "Player")
         {
+          
             Application.LoadLevel(0);
         }
     }

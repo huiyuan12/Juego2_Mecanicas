@@ -60,13 +60,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\createWall.cs" />
+    <Compile Include="Assets\Scripts\ActivateLava.cs" />
     <Compile Include="Assets\Scripts\Camera.cs" />
     <Compile Include="Assets\Scripts\Create.cs" />
     <Compile Include="Assets\Scripts\DestroyCube.cs" />
     <Compile Include="Assets\Scripts\DestroyWall.cs" />
+    <Compile Include="Assets\Scripts\endScript.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\Enemy2.cs" />
+    <Compile Include="Assets\Scripts\Enemy3.cs" />
+    <Compile Include="Assets\Scripts\Lava.cs" />
     <Compile Include="Assets\Scripts\Lose.cs" />
+    <Compile Include="Assets\Scripts\LoseUI1.cs" />
+    <Compile Include="Assets\Scripts\loseUI2.cs" />
+    <Compile Include="Assets\Scripts\loseUI3.cs" />
+    <Compile Include="Assets\Scripts\loseUI4.cs" />
+    <Compile Include="Assets\Scripts\loseUI5.cs" />
+    <Compile Include="Assets\Scripts\loseUI6.cs" />
+    <Compile Include="Assets\Scripts\loseUI7.cs" />
+    <Compile Include="Assets\Scripts\loseUI8.cs" />
+    <Compile Include="Assets\Scripts\loseUI9.cs" />
     <Compile Include="Assets\Scripts\MaceDestroy.cs" />
     <Compile Include="Assets\Scripts\Manager.cs" />
     <Compile Include="Assets\Scripts\MenuScripts.cs" />
@@ -76,6 +89,7 @@
     <Compile Include="Assets\Scripts\Suelo.cs" />
     <Compile Include="Assets\Scripts\TimeUI.cs" />
     <Compile Include="Assets\Scripts\WallColl.cs" />
+    <Compile Include="Assets\Scripts\Win.cs" />
     <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Juan/Desktop/Juego2_Mecanicas/Practica2_Mecaniques - copia/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

@@ -4,10 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 public class TimeUI : MonoBehaviour {
     public Text timeUI;
+    public Text intentos;
+    public static int trys;
 	// Use this for initialization
 	void Start () {
-		
-	}
+      
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -19,6 +21,7 @@ public class TimeUI : MonoBehaviour {
         {
             timeUI.text = "PAST";
         }
+        intentos.text = "ATTEMPTS: " + trys.ToString();
     }
 
 }
